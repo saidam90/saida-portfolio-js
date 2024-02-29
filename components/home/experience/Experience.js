@@ -80,4 +80,38 @@ const experience = [
       "Adobe Photoshop",
     ],
   },
+  {
+    title: "PMD Hospitality",
+    position: "Group Marketing Executive",
+    time: "06.2021 - 09.2021",
+    location: "Baku/Azerbaijan",
+    description:
+      "Managed digital marketing activities for Chenot Palace Gabala, Chinar Hotel & Spa, Galaalti Hotel & Spa, Gashalti Health Hotel Naftalan, Garabagh Resort & Spa, Shamakhi Palace Sharadil and Lankaran Springs Wellness Resort.",
+    tech: [
+      "B2C",
+      "Google Ads",
+      "Facebook Ads Manager",
+      "Meta Business Suite",
+      "Mailchimp",
+      "Canva",
+      "Adobe Photoshop",
+    ],
+  },
+  {
+    title: "Chenot Palace",
+    position: "Digital Marketing & Brand Executive",
+    time: "02.2016 - 09.2021",
+    location: "Baku/Azerbaijan",
+    description:
+      "Development and delivery of the annual marketing plan and digital marketing strategy.Content management of the website through CMS in 3 languages. Managing creative campaigns (SM; Display; SEM: CPC - €0.20) and optimising website traffic with positive post-click metrics (bounce rate < 40%, time spend > 1 min). Conducting email campaigns and promotions for events - as a result, achieved sales uplift up to 45%. Optimised social media content - redesigned branded templates, introduced grid layout and eye-catching visuals. Implemented audience segmentation strategy in email campaigns which helped to improve open rate by 10%. Owning the external agencies' relationships – PR, SEO, creative; managing budgets, allocating and optimising spend across tactics to maximize content effectiveness. Reduced annual marketing spend of €1500 by introducing a new print supplier and changing the email marketing platform. Arranged over 100 press and influencer trips, and negotiated influencer contracts for all collaborations. Managed a cross-functional team working toward the development of 52 marketing collaterals.",
+    tech: [
+      "B2C",
+      "Google Ads",
+      "Facebook Ads Manager",
+      "Meta Business Suite",
+      "Mailchimp",
+      "Canva",
+      "Adobe Photoshop",
+    ],
+  },
 ];
