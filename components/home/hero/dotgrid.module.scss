@@ -1,0 +1,41 @@
+.dotGrid {
+  position: absolute;
+  top: 12px;
+  bottom: 12px;
+  right: 3.6rem;
+  max-width: 100%;
+  display: grid;
+  z-index: 0;
+}
+
+.dotWrapper {
+  padding: 0.8rem;
+  cursor: crosshair;
+  transition: 0.25s background;
+  border-radius: 8px;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: linear-gradient(
+    180deg,
+    rgba(181, 181, 181, 0.579),
+    rgba(179, 179, 179, 0.492)
+  );
+  opacity: 0.7;
+}
+
+.dotWrapper:hover {
+  background: var(--bg-opaque);
+}
+
+.dotWrapper:hover > .dot {
+  background: linear-gradient(
+    180deg,
+    var(--bg-opaque),
+    var(--bg-opaque)
+  ) !important;
+  opacity: 1 !important;
+}
