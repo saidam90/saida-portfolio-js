@@ -1,0 +1,22 @@
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-bottom: 1.2rem;
+}
+
+.title {
+  font-size: var(--text-md);
+  font-weight: bold;
+}
+
+.organization {
+  color: var(--brand);
+  font-weight: bold;
+}
+
+.description {
+  margin-bottom: 1.8rem;
+  font-weight: 200;
+}

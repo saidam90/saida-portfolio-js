@@ -5,6 +5,7 @@ import styles from "./home.module.scss";
 import { Heading } from "../nav/Heading";
 import { About } from "./about/About";
 import { Projects } from "./projects/Projects";
+import { Other } from "./other/Other";
 import { Experience } from "./experience/Experience";
 import { Contact } from "./contact/Contact";
 
@@ -19,6 +20,7 @@ export const Home = () => {
           <About />
           <Projects />
           <Experience />
+          <Other />
           <Contact />
           <div
             style={{

@@ -15,7 +15,6 @@ export const ProjectModal = ({
   title,
   code,
   tech,
-  inlineStyle,
 }) => {
   useEffect(() => {
     const body = document.querySelector("body");

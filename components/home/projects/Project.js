@@ -54,10 +54,6 @@ export const Project = ({
           <img
             src={imgSrc}
             alt={`An image of the ${title} project.`}
-            // style={{
-            //   width: hovered ? "90%" : "85%",
-            //   rotate: hovered ? "2deg" : "0deg",
-            // }}
             style={inlineStyle}
           />
         </div>
@@ -81,7 +77,7 @@ export const Project = ({
           </Reveal>
           <Reveal>
             <p className={styles.projectDescription}>
-              {description}{" "}
+              {description}
               <span onClick={() => setIsOpen(true)}> Learn more {">"}</span>
             </p>
           </Reveal>
