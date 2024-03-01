@@ -1,11 +1,7 @@
 import Head from "next/head";
 import { Home } from "@/components/home/Home";
-import ReactGA from "react-ga";
 
 export default function home() {
-  ReactGA.initialize("G-2940GH5W9Y");
-  ReactGA.pageview(window.location.pathname + window.location.search);
-
   return (
     <>
       <Head>
