@@ -43,7 +43,7 @@ const projects = [
       "Fort Awesome",
     ],
     description:
-      "This project showcases the work and capabilities of Devit Studio, a web development agency specializing in websites. ",
+      "This project showcases the work and capabilities of Devit Studio, a web development agency specializing in websites.",
     modalContent: (
       <>
         <p>
@@ -88,6 +88,33 @@ const projects = [
         </p>
         <p>
           The team consisted of 6 developers. The app was built in three weeks.
+        </p>
+      </>
+    ),
+  },
+  {
+    title: "Cosmed Travel",
+    imgSrc: "project-imgs/cosmedtravel.gif",
+    code: "https://github.com/saidam90/cosmedtravel",
+    projectLink: "https://cosmedtravel-6f2d6c84a8f5.herokuapp.com/",
+    tech: [
+      "Ruby on Rails",
+      "PostgreSQL",
+      "Bootstrap",
+      "CSS & SASS",
+      "JavaScript",
+    ],
+    description:
+      "A medical travel agency that offers customers support in booking aesthetic treatments and services.",
+    modalContent: (
+      <>
+        <p>
+          A medical travel agency that offers customers support in booking
+          aesthetic treatments and services.
+        </p>
+        <p>
+          Solo-project. At the moment, the project is incomplete due to the lack
+          of the information provided by the client.
         </p>
       </>
     ),
