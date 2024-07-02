@@ -8,8 +8,11 @@ import { Projects } from "./projects/Projects";
 import { Other } from "./other/Other";
 import { Experience } from "./experience/Experience";
 import { Contact } from "./contact/Contact";
+import ReactGA from "react-ga4";
 
 export const Home = () => {
+  ReactGA.initialize("G-2940GH5W9Y");
+
   return (
     <>
       <div className={styles.home}>
