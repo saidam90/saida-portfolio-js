@@ -29,10 +29,7 @@ export const About = () => {
             </p>
           </Reveal>
           <Reveal>
-            <p className={styles.aboutText}>
-              If you think you&apos;ve got an opening that I might like,
-              let&apos;s connect 🔗
-            </p>
+            <p className={styles.aboutText}>Let&apos;s connect 🔗</p>
           </Reveal>
           <Reveal>
             <div className={styles.links}>
