@@ -16,13 +16,12 @@ export const Stats = () => {
             <span className="chip">React</span>
             <span className="chip">Ruby</span>
             <span className="chip">Ruby on Rails</span>
+            <span className="chip">Node.js</span>
             <span className="chip">HTML</span>
             <span className="chip">CSS</span>
-            <span className="chip">Next.js</span>
-            <span className="chip">Vue.js</span>
             <span className="chip">Tailwind CSS</span>
-            <span className="chip">Material UI</span>
             <span className="chip">Postgresql</span>
+            <span className="chip">MondoDB</span>
             <span className="chip">Bootstrap</span>
             <span className="chip">Figma</span>
             <span className="chip">GitHub</span>

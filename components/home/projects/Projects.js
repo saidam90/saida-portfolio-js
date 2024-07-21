@@ -123,7 +123,7 @@ const projects = [
     title: "Re:readr",
     imgSrc: "project-imgs/rereadr.gif",
     code: "https://www.github.com",
-    projectLink: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    projectLink: "https://re-readr.herokuapp.com/",
     tech: [
       "Ruby on Rails",
       "JavaScript",

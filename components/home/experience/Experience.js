@@ -53,7 +53,7 @@ const experience = [
     time: "09.2023 - 12.2023",
     location: "Remote/London, UK",
     description:
-      "Developed and executed a quarterly marketing B2B strategy plan, that ensured a consistent flow of high-quality blog posts, newsletters and whitepapers leading to increased brand visibility and audience engagement. Developed and implemented a social media calendar resulting in a 50% increase in engagement on LinkedIn and a 25% rise in click-through rates. Created a series of whitepapers for the brand, blog posts improving SEO performance and newsletters. Implemented segmentation for newsletter subscribers and customer journey. Introduced visually appealing templates for social media platforms and incorporated AI-generated images.",
+      "Developed and executed a quarterly marketing B2B strategy plan, that ensured a consistent flow of high-quality blog posts, newsletters and whitepapers leading to increased brand visibility and audience engagement. Created a series of whitepapers for the brand, blog posts improving SEO performance and newsletters. Implemented segmentation for newsletter subscribers and customer journey. Introduced visually appealing templates for social media platforms and incorporated AI-generated images.",
     tech: [
       "B2B",
       "Wordpress",
