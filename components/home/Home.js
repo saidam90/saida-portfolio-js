@@ -5,7 +5,7 @@ import styles from "./home.module.scss";
 import { Heading } from "../nav/Heading";
 import { About } from "./about/About";
 import { Projects } from "./projects/Projects";
-import { Other } from "./other/Other";
+import { Grants } from "./grants/Grants";
 import { Experience } from "./experience/Experience";
 import { Contact } from "./contact/Contact";
 import ReactGA from "react-ga4";
@@ -23,7 +23,7 @@ export const Home = () => {
           <About />
           <Experience />
           <Projects />
-          <Other />
+          <Grants />
           <Contact />
           <div
             style={{

@@ -71,11 +71,11 @@ export const SideBar = () => {
         initial={{ x: -70 }}
         animate={{ x: 0 }}
         transition={{ duration: 0.5, delay: 0.3 }}
-        href="#other"
-        onClick={() => setSelected("other")}
-        className={selected === "other" ? styles.selected : ""}
+        href="#grants"
+        onClick={() => setSelected("grants")}
+        className={selected === "grants" ? styles.selected : ""}
       >
-        Other
+        Grants
       </motion.a>
       <motion.a
         initial={{ x: -70 }}

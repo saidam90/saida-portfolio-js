@@ -2,7 +2,12 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+
+.grants {
+  margin-bottom: 3rem;
+  border-bottom: 1px solid var(--background-light);
 }
 
 .title {
@@ -16,6 +21,7 @@
 }
 
 .description {
-  margin-bottom: 1.8rem;
+  margin-bottom: 0.5rem;
   font-weight: 200;
+  padding: 0.5rem 0 1rem 0;
 }

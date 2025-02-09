@@ -61,7 +61,7 @@ export const Stats = () => {
             <span className="chip">Russian</span>
             <span className="chip">Azerbaijani</span>
             <span className="chip">Japanese</span>
-            <span className="chip">Tuskish</span>
+            <span className="chip">Turkish</span>
           </div>
         </div>
       </Reveal>

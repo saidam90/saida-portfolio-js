@@ -9,7 +9,7 @@ export const Contact = () => {
       <div className={styles.contactWrapper}>
         <Reveal width="100%">
           <h4 className={styles.contactTitle}>
-            Contact<span>.</span>
+            Contact me<span>.</span>
           </h4>
         </Reveal>
         <Reveal width="100%">

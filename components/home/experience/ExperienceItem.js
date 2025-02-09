@@ -29,7 +29,11 @@ export const ExperienceItem = ({
         </Reveal>
       </div>
       <Reveal>
-        <p className={styles.description}>{description}</p>
+        <div className={styles.description}>
+          {description.map((item) => (
+            <li key={item}>{item}</li>
+          ))}
+        </div>
       </Reveal>
       <Reveal>
         <div className={styles.tech}>

@@ -1,11 +1,11 @@
 import { Reveal } from "@/components/utils/Reveal";
-import styles from "./other.module.scss";
+import styles from "./grants.module.scss";
 import Link from "next/link";
 import { AiOutlineExport } from "react-icons/ai";
 
-export const OtherItem = ({ title, organization, time, description, link }) => {
+export const GrantItem = ({ title, organization, time, description, link }) => {
   return (
-    <div className={styles.experience}>
+    <div className={styles.grants}>
       <div className={styles.heading}>
         <Reveal>
           <span className={styles.title}>{title}</span>

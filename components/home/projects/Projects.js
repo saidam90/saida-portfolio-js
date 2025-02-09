@@ -5,7 +5,7 @@ import styles from "./projects.module.scss";
 export const Projects = () => {
   return (
     <section className="section-wrapper" id="projects">
-      <SectionHeader title="Projects" dir="r" />
+      <SectionHeader title="Web Dev Projects" dir="l" />
 
       <div className={styles.projects}>
         {projects.map((project) => {
@@ -32,7 +32,7 @@ const projects = [
     imgSrc: "project-imgs/rakoon.gif",
     code: "https://github.com/Radix-meme/radix-meme-frontend",
     projectLink: "https://rakoon.fun/",
-    tech: ["React", "Typescript", "Tailwind CSS"],
+    tech: ["React", "Typescript", "Redux", "Tailwind CSS"],
     description:
       "The memecoin launchpad on Radix with instant liquidity using a bonding curve.",
     modalContent: (
@@ -125,7 +125,7 @@ const projects = [
   {
     title: "Re:readr",
     imgSrc: "project-imgs/rereadr.gif",
-    code: "https://www.github.com",
+    code: "https://github.com/chantommyy/Re-readr",
     projectLink: "https://re-readr.herokuapp.com/",
     tech: [
       "Ruby on Rails",

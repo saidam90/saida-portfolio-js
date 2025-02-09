@@ -22,8 +22,8 @@ export const About = () => {
           </Reveal>
           <Reveal>
             <p className={styles.aboutText}>
-              Outside of work, I love to play a piano, watch anime, read books
-              and manga.
+              Outside of work, I love to play a piano, attend hackathons, watch
+              anime, read books and manga.
             </p>
           </Reveal>
           <Reveal>
