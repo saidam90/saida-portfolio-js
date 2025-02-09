@@ -7,6 +7,7 @@ import { About } from "./about/About";
 import { Projects } from "./projects/Projects";
 import { Grants } from "./grants/Grants";
 import { Experience } from "./experience/Experience";
+import { Education } from "./education/Education";
 import { Contact } from "./contact/Contact";
 import ReactGA from "react-ga4";
 
@@ -22,6 +23,7 @@ export const Home = () => {
           <Hero />
           <About />
           <Experience />
+          <Education />
           <Projects />
           <Grants />
           <Contact />
