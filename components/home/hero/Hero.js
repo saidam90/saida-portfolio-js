@@ -20,7 +20,7 @@ export const Hero = () => {
         <Reveal>
           <p className={styles.aboutCopy}>
             I create impactful digital experiences for the web✨ <br />
-            Let's connect and drive growth together!
+            Let&apos;s connect and drive growth together!
           </p>
         </Reveal>
         <Reveal>
