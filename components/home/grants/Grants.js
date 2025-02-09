@@ -4,7 +4,7 @@ import { GrantItem } from "./GrantItem";
 export const Grants = () => {
   return (
     <section className="section-wrapper" id="grants">
-      <SectionHeader title="Grants" dir="r" />
+      <SectionHeader title="Grants" dir="l" />
       {grants.map((item) => (
         <GrantItem key={item.title} {...item} />
       ))}
