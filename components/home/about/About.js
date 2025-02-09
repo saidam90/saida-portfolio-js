@@ -13,13 +13,11 @@ export const About = () => {
         <div>
           <Reveal>
             <p className={`${styles.aboutText} ${styles.highlightFirstLetter}`}>
-              I&apos;m a motivated and detail-oriented graduate from Le Wagon
-              bootcamp with a background in full-stack web development. I love
-              collaborating with teams and being a team player, but I can also
-              handle working on my own and driving projects forward.
-              <br />
-              With over 5 years of experience in marketing, I&apos;ve got a set
-              of transferable skills to bring to the table.
+              Digital Marketer with 7+ years of experience. Front-end developer
+              skilled in React, TypeScript, and Tailwind CSS. I thrive on
+              contributing to impactful projects and am eager to grow within a
+              dynamic team environment. Interested in Web3 and emerging
+              technologies.
             </p>
           </Reveal>
           <Reveal>
@@ -41,8 +39,8 @@ export const About = () => {
             </div>
           </Reveal>
         </div>
-        <Stats />
       </div>
+      <Stats />
     </section>
   );
 };

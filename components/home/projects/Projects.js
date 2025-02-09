@@ -28,6 +28,44 @@ export const Projects = () => {
 
 const projects = [
   {
+    title: "Rakoon.fun",
+    imgSrc: "project-imgs/rakoon.gif",
+    code: "https://github.com/Radix-meme/radix-meme-frontend",
+    projectLink: "https://rakoon.fun/",
+    tech: ["React", "Typescript", "Tailwind CSS"],
+    description:
+      "The memecoin launchpad on Radix with instant liquidity using a bonding curve.",
+    modalContent: (
+      <>
+        <p>
+          Rakoon.fun is a fair memecoin launchpad on the Radix network, inspired
+          by pump.fun. It enables users to instantly launch their own memecoins
+          with unlimited liquidity using a bonding curve model. Users can either
+          create their own memecoin or browse existing coins to buy and sell for
+          profit.
+        </p>
+        <p>The team consists of 4 people, including myself.</p>
+      </>
+    ),
+  },
+  {
+    title: "Dexter on Radix",
+    imgSrc: "project-imgs/dexter.gif",
+    code: "https://github.com/DeXter-on-Radix/website",
+    projectLink: "https://dexteronradix.com/",
+    tech: ["React", "Typescript", "Tailwind CSS"],
+    description: "Decentralized order book exchange on Radix.",
+    modalContent: (
+      <>
+        <p>
+          DeXter is the very first order book exchange on the Radix network to
+          be built entirely by volunteers from the community.
+        </p>
+        <p>The project is open-sourced.</p>
+      </>
+    ),
+  },
+  {
     title: "Devit Studio",
     imgSrc: "project-imgs/devitstudio.gif",
     code: "https://github.com/hesennov/DevIt-studio",
@@ -54,41 +92,6 @@ const projects = [
           showcase the skills and expertise of the team.
         </p>
         <p>The team consisted of 2 people, including myself.</p>
-      </>
-    ),
-  },
-  {
-    title: "Farm ERP",
-    imgSrc: "project-imgs/farm-erp.gif",
-    code: "#",
-    projectLink: "https://farmerp.netlify.app/login",
-    tech: [
-      "React",
-      "Vite.js",
-      "Redux",
-      "Formik & Yup",
-      "Toastify",
-      "Material UI",
-      "Tailwind CSS",
-      "React Leaflet",
-      "Turf.JS",
-      "Fetch API",
-    ],
-    description:
-      "The application aims to provide farm owners and farmers with tools to manage and monitor their agricultural lands effectively.",
-    modalContent: (
-      <>
-        <p>
-          The application aims to provide farm owners and farmers with tools to
-          manage and monitor their agricultural lands effectively. Key features
-          include managing crop areas represented by polygons on a map, CRUD
-          operations, and ensuring a responsive user interface for both mobile
-          and web platforms. The goal of this task is to enhance the efficiency
-          of agricultural enterprises and optimize their operations.
-        </p>
-        <p>
-          The team consisted of 6 developers. The app was built in three weeks.
-        </p>
       </>
     ),
   },
