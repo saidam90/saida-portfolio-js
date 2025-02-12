@@ -32,7 +32,7 @@ const education = [
   {
     title: "University of Glasgow",
     position: "Tourism, Heritage & Development MSc",
-    time: "09.2013 - 09.2014",
+    time: "Sep 2013 - Sep 2014",
     location: "Dumfries, UK",
     description: [""],
   },
@@ -46,7 +46,7 @@ const education = [
   {
     title: "Gunma University",
     position: "Practical Japanese Study Program / Gunma University J Program",
-    time: "09.2010 - 09.2011",
+    time: "Sep 2010 - Sep 2011",
     location: "Gunma, Japan",
     description: ["Gunma University Student Exchange Program"],
   },
