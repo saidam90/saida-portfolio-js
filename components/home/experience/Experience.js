@@ -26,7 +26,7 @@ const experience = [
   {
     title: "Dexter on Radix",
     position: "Front-end Developer",
-    time: "Sep 2024 - Present",
+    time: "July 2024 - Present",
     location: "Remote",
     description: ["Building the front-end features. Open-source project."],
     tech: ["React", "Typescript", "Redux", "Tailwind CSS"],
@@ -34,7 +34,7 @@ const experience = [
   {
     title: "Shahdag Mountain Resort",
     position: "Digital Marketing Manager",
-    time: "05.2023 - Present",
+    time: "May 2023 - Present",
     location: "Remote/Baku, Azerbaijan",
     description: [
       "Coordinating new website development from planning to execution.",
@@ -77,7 +77,7 @@ const experience = [
   {
     title: "ROLZO",
     position: "Marketing Consultant",
-    time: "09.2023 - 12.2023",
+    time: "Sep 2023 - Dec 2023",
     location: "Remote/London, UK",
     description: [
       "Developed and executed a quarterly marketing B2B strategy plan, that ensured a consistent flow of high-quality blog posts, newsletters and whitepapers leading to increased brand visibility and audience engagement.",
@@ -98,7 +98,7 @@ const experience = [
   {
     title: "Shahdag Mountain Resort",
     position: "Head of Marketing",
-    time: "10.2021 - 09.2022",
+    time: "Oct 2021 - Sep 2022",
     location: "Baku/Azerbaijan",
     description: [
       "Maximized direct bookings by 294% compared to the previous year by integrating the booking engine into social network accounts, and offering seasonal promotions - as a result, lowered the commissions to third-party OTAs.",
@@ -118,7 +118,7 @@ const experience = [
   {
     title: "PMD Hospitality",
     position: "Group Marketing Executive",
-    time: "06.2021 - 09.2021",
+    time: "Jun 2021 - Sep 2021",
     location: "Baku/Azerbaijan",
     description: [
       "Managed digital marketing activities for Chenot Palace Gabala, Chinar Hotel & Spa, Galaalti Hotel & Spa, Gashalti Health Hotel Naftalan, Garabagh Resort & Spa, Shamakhi Palace Sharadil and Lankaran Springs Wellness Resort.",
@@ -136,7 +136,7 @@ const experience = [
   {
     title: "Chenot Palace",
     position: "Digital Marketing & Brand Executive",
-    time: "02.2016 - 09.2021",
+    time: "Feb 2016 - Sep 2021",
     location: "Baku/Azerbaijan",
     description: [
       "Development and delivery of the annual marketing plan and digital marketing strategy.Content management of the website through CMS in 3 languages.",
