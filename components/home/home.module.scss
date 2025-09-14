@@ -1,4 +1,13 @@
 .home {
-  display: grid;
-  grid-template-columns: 60px 1fr;
+  display: flex;
+  min-height: 100vh;
+}
+
+.gradientSection {
+  height: 200px;
+  background: linear-gradient(
+    180deg,
+    var(--background),
+    var(--background-dark)
+  );
 }

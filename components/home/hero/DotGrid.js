@@ -48,10 +48,7 @@ export const DotGrid = () => {
   }
 
   return (
-    <div
-      style={{ gridTemplateColumns: `repeat(${GRID_WIDTH}, 1fr)` }}
-      className={styles.dotGrid}
-    >
+    <div className={`${styles.dotGrid} ${styles.dotGrid25Cols}`}>
       {dots.map((dot) => dot)}
     </div>
   );

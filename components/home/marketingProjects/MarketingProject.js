@@ -3,10 +3,10 @@ import { useAnimation, useInView, motion } from "framer-motion";
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { AiFillGithub, AiOutlineExport } from "react-icons/ai";
-import { ProjectModal } from "./ProjectModal";
-import styles from "./projects.module.scss";
+import { MarketingProjectModal } from "./MarketingProjectModal";
+import styles from "./marketingProjects.module.scss";
 
-export const Project = ({
+export const MarketingProject = ({
   modalContent,
   projectLink,
   description,
@@ -50,14 +50,6 @@ export const Project = ({
           onMouseLeave={() => setHovered(false)}
           onClick={() => setIsOpen(true)}
           className={styles.projectImage}
-          role="button"
-          tabIndex={0}
-          onKeyDown={(e) => {
-            if (e.key === "Enter" || e.key === " ") {
-              e.preventDefault();
-              setIsOpen(true);
-            }
-          }}
         >
           <img
             src={imgSrc}
@@ -91,7 +83,7 @@ export const Project = ({
           </Reveal>
         </div>
       </motion.div>
-      <ProjectModal
+      <MarketingProjectModal
         modalContent={modalContent}
         projectLink={projectLink}
         setIsOpen={setIsOpen}

@@ -75,7 +75,17 @@ export const SideBar = () => {
         onClick={() => setSelected("projects")}
         className={selected === "projects" ? styles.selected : ""}
       >
-        Projects
+        Web Dev
+      </motion.a>
+      <motion.a
+        initial={{ x: -70 }}
+        animate={{ x: 0 }}
+        transition={{ duration: 0.5, delay: 0.2 }}
+        href="#marketingProjects"
+        onClick={() => setSelected("marketingProjects")}
+        className={selected === "marketingProjects" ? styles.selected : ""}
+      >
+        Marketing
       </motion.a>
       <motion.a
         initial={{ x: -70 }}

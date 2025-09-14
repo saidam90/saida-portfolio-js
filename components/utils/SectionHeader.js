@@ -2,11 +2,13 @@ import styles from "./header.module.scss";
 import { Reveal } from "./Reveal";
 
 export const SectionHeader = ({ title, dir = "r" }) => {
+  const headerClass =
+    dir === "r"
+      ? `${styles.sectionHeader} ${styles.sectionHeaderRow}`
+      : `${styles.sectionHeader} ${styles.sectionHeaderReverse}`;
+
   return (
-    <div
-      className={styles.sectionHeader}
-      style={{ flexDirection: dir === "r" ? "row" : "row-reverse" }}
-    >
+    <div className={headerClass}>
       <div className={styles.line} />
       <h3>
         <Reveal>

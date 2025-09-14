@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import { motion, useInView, useAnimation } from "framer-motion";
+import styles from "./reveal.module.scss";
 
 export const Reveal = ({ children, width = "fit-content" }) => {
   const mainControls = useAnimation();
@@ -18,8 +19,13 @@ export const Reveal = ({ children, width = "fit-content" }) => {
     }
   }, [isInView, mainControls, slideControls]);
 
+  const containerClass =
+    width === "100%"
+      ? `${styles.revealContainer} ${styles.revealContainerFull}`
+      : `${styles.revealContainer} ${styles.revealContainerFit}`;
+
   return (
-    <div ref={ref} style={{ position: "relative", width, overflow: "hidden" }}>
+    <div ref={ref} className={containerClass}>
       <motion.div
         variants={{
           hidden: { opacity: 0, y: 75 },

@@ -5,6 +5,7 @@ import styles from "./home.module.scss";
 import { Heading } from "../nav/Heading";
 import { About } from "./about/About";
 import { Projects } from "./projects/Projects";
+import { MarketingProjects } from "./marketingProjects/MarketingProjects";
 import { Grants } from "./grants/Grants";
 import { Experience } from "./experience/Experience";
 import { Education } from "./education/Education";
@@ -25,15 +26,10 @@ export const Home = () => {
           <Experience />
           <Education />
           <Projects />
+          <MarketingProjects />
           <Grants />
           <Contact />
-          <div
-            style={{
-              height: "200px",
-              background:
-                "linear-gradient(180deg, var(--background), var(--background-dark))",
-            }}
-          />
+          <div className={styles.gradientSection} />
         </main>
       </div>
     </>

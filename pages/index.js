@@ -5,8 +5,8 @@ export default function home() {
   return (
     <>
       <Head>
-        <title>Saida Murtazali | Full-Stack Developer | Marketer</title>
-        <meta name="description" content="Bleep boop" />
+        <title>Saida Murtazali | Front-end Developer | Digital Marketer</title>
+        <meta name="description" content="resume" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

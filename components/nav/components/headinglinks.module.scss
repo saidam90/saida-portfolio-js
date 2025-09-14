@@ -13,4 +13,9 @@
     color: var(--text);
     opacity: 1;
   }
+
+  a:focus-visible {
+    outline: 1px solid var(--focus-ring);
+    outline-offset: 1px;
+  }
 }

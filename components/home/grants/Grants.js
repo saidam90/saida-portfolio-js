@@ -17,7 +17,8 @@ const grants = [
     title: "Rakoon.fun",
     organization: "Radix Ecosystem Fund",
     time: "Dec 2024",
-    description: "The MVP Booster ($5K XRD) awarded to 'Rakoon.fun'",
+    description:
+      "The MVP Booster ($5K XRD) awarded to 'Rakoon.fun' (previously radix.meme). Team project.",
     link: "https://rakoon.fun/",
   },
   {
@@ -25,7 +26,7 @@ const grants = [
     organization: "ECB Barcelona Hackathon",
     time: "Sep 2024",
     description:
-      "5th place ($1K XRD) with the 'radix.meme' project (rebranded to 'Rakoon.fun') at the ECB Barcelona Hackathon",
+      "5th place ($1K XRD) with the 'radix.meme' project (rebranded to 'Rakoon.fun') at the ECB Barcelona Hackathon. Team project.",
     link: "https://www.radixdlt.com/blog/european-blockchain-convention-event-highlights",
   },
   {
