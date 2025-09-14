@@ -14,13 +14,15 @@ export const Hero = () => {
         </Reveal>
         <Reveal>
           <h2 className={styles.subTitle}>
-            I&apos;m a <span>Digital Marketer | Front-end Developer</span>
+            <span>Product & Growth Marketer | Front-end Developer </span>
           </h2>
+          {/* <p className={styles.subTitle}>
+            <span>Front-end Developer</span>
+          </p> */}
         </Reveal>
         <Reveal>
           <p className={styles.aboutCopy}>
-            I create impactful digital experiences for the web✨ <br />
-            Let&apos;s connect and drive growth together!
+            Let&apos;s connect and drive growth together!✨
           </p>
         </Reveal>
         <Reveal>

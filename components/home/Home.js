@@ -5,7 +5,7 @@ import styles from "./home.module.scss";
 import { Heading } from "../nav/Heading";
 import { About } from "./about/About";
 import { Projects } from "./projects/Projects";
-import { MarketingProjects } from "./marketingProjects/MarketingProjects";
+// import { MarketingProjects } from "./marketingProjects/MarketingProjects";
 import { Grants } from "./grants/Grants";
 import { Experience } from "./experience/Experience";
 import { Education } from "./education/Education";
@@ -26,7 +26,7 @@ export const Home = () => {
           <Experience />
           <Education />
           <Projects />
-          <MarketingProjects />
+          {/* <MarketingProjects /> */}
           <Grants />
           <Contact />
           <div className={styles.gradientSection} />

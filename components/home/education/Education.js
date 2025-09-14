@@ -13,16 +13,16 @@ export const Education = () => {
 };
 
 const education = [
-  {
-    title: "University of Helsinki",
-    position: "Full Stack Open 2024 Online Program",
-    time: "Jan 2024 - May 2024",
-    location: "Remote",
-    description: [""],
-  },
+  // {
+  //   title: "University of Helsinki",
+  //   position: "Full Stack Open 2024 Online Program",
+  //   time: "Jan 2024 - May 2024",
+  //   location: "Remote",
+  //   description: [""],
+  // },
   {
     title: "Le Wagon London",
-    position: "Computer Programming",
+    position: "Web Development Bootcamp",
     time: "Oct 2022 - Dec 2022",
     location: "London, UK",
     description: [
@@ -31,21 +31,21 @@ const education = [
   },
   {
     title: "University of Glasgow",
-    position: "Tourism, Heritage & Development MSc",
+    position: "MSc in Tourism",
     time: "Sep 2013 - Sep 2014",
     location: "Dumfries, UK",
     description: [""],
   },
   {
     title: "Baku State University",
-    position: "Regional Studies of Japan",
+    position: "BSc in Regional Studies",
     time: "Sep 2007 - May 2012",
     location: "Baku, Azerbaijan",
     description: [""],
   },
   {
     title: "Gunma University",
-    position: "Practical Japanese Study Program / Gunma University J Program",
+    position: "Gunma University J Program",
     time: "Sep 2010 - Sep 2011",
     location: "Gunma, Japan",
     description: ["Gunma University Student Exchange Program"],

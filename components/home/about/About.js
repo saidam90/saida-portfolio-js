@@ -13,14 +13,20 @@ export const About = () => {
         <div>
           <Reveal>
             <p className={`${styles.aboutText} ${styles.highlightFirstLetter}`}>
-              Digital Marketer with 7+ years of experience. Front-end developer
-              skilled in React, TypeScript, and Tailwind CSS. I thrive on
-              contributing to impactful projects and am eager to grow within a
-              dynamic team environment. Interested in Web3 and emerging
-              technologies.
+              Product & Growth Marketer with 7+ years driving digital strategy
+              and conversion rate optimization (CRO). Proven record of scaling
+              direct bookings, reducing support costs through automation, and
+              building technical marketing solutions in fast-paced product
+              environments. Front-end developer skilled in React, TypeScript,
+              and Tailwind CSS. I thrive in dynamic, collaborative environments
+              where impactful projects and continuous learning are key.
             </p>
           </Reveal>
           <Reveal>
+            <p className={styles.aboutText}>
+              Interests: Startups, emerging technologies, marketing automation,
+              and growth hacking.
+            </p>
             <p className={styles.aboutText}>
               Outside of work, I love to play a piano, attend hackathons, watch
               anime, read books and manga.

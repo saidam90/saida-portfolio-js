@@ -31,8 +31,8 @@
 .subTitle {
   font-size: var(--text-lg);
   line-height: 1;
-  margin-top: 1.8rem;
-  margin-bottom: 0.5rem;
+  margin-top: 3rem;
+  // margin-bottom: 0.5rem;
   font-weight: 200;
 
   span {
@@ -42,7 +42,8 @@
 }
 
 .aboutCopy {
-  margin: 2.6rem 0;
+  margin-top: 2rem;
+  margin-bottom: 2.6rem;
   max-width: 700px;
   font-weight: 200;
 }
