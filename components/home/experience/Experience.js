@@ -28,7 +28,7 @@ const experience = [
   {
     title: "Dexter on Radix",
     position: "Front-end Developer",
-    time: "July 2024 - Present",
+    time: "July 2024 - December 2024",
     location: "Remote",
     description: ["Building the front-end features. Open-source project."],
     tech: ["React", "Typescript", "Redux", "Tailwind CSS"],
