@@ -19,7 +19,7 @@ export const Home = () => {
     <>
       <div className={styles.home}>
         <SideBar />
-        <main>
+        <main className={styles.main}>
           <Heading />
           <Hero />
           <About />
