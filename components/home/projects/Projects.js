@@ -28,6 +28,39 @@ export const Projects = () => {
 
 const projects = [
   {
+    title: "Delirious Eyewear",
+    imgSrc: "project-imgs/delirious-eyewear.gif",
+    code: "https://github.com/camillo18tre/delirious-eshop",
+    projectLink: "https://www.deliriouseyewear.com/",
+    tech: [
+      "Next.js",
+      "Typescript",
+      "Tailwind CSS",
+      "Shopify",
+      "GraphQL API",
+      "SEO",
+      "Schema markup",
+      "Technical SEO",
+    ],
+    description:
+      "Delirious Eyewear is a boutique luxury eyewear brand rooted in Italian and Japanese craftsmanship.",
+    modalContent: (
+      <>
+        <p>
+          The label is known for its minimalist yet unconventional designs,
+          crafted from premium eco-friendly materials like Japanese Takiron
+          acetate and Katohachi lenses. Its aesthetic blends retro-futurism,
+          surrealist influences, and bold editorial styling, appealing to a
+          niche audience that values individuality and artistry. Beyond style,
+          Delirious emphasizes authenticity and sustainability, offering
+          customization options and exploring innovations like digital try-ons
+          and token-enabled ownership to deepen customer connection
+        </p>
+        <p>The team consists of 6 people, including myself.</p>
+      </>
+    ),
+  },
+  {
     title: "Rakoon.fun",
     imgSrc: "project-imgs/rakoon.gif",
     code: "https://github.com/Radix-meme/radix-meme-frontend",
