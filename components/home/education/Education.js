@@ -25,9 +25,27 @@ const education = [
     position: "Web Development Bootcamp",
     time: "Oct 2022 - Dec 2022",
     location: "London, UK",
-    description: [
-      "Attended Le Wagon London in person (Batch #1052). Full-time intensive coding bootcamp learning HTML, CSS, Bootstrap, JavaScript ES6,SQL, git, GitHub, Heroku and Ruby on Rails.",
-    ],
+    description: (
+      <>
+        <p>
+          Attended Le Wagon London in person (Batch #1052). Full-time intensive
+          coding bootcamp learning HTML, CSS, Bootstrap, JavaScript ES6, SQL,
+          git, GitHub, Heroku and Ruby on Rails. Selected as lead developer
+          after pitching my project idea (1 of ~20 chosen by peers). Led a team
+          of 4 to design, build, and ship two full-stack demo-apps in 3 weeks:
+        </p>
+        <ul>
+          <li>
+            - FluffyFriend: MVP demo app shipped in 1 week, leading both
+            front-end and back-end development.
+          </li>
+          <li>
+            - Re:Reader: MVP demo app shipped in 2 weeks, with me leading mainly
+            front-end development.
+          </li>
+        </ul>
+      </>
+    ),
   },
   {
     title: "University of Glasgow",

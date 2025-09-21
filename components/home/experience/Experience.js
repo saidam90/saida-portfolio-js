@@ -41,9 +41,11 @@ const experience = [
     time: "Sep 2024 - Present",
     location: "Remote",
     description: [
-      "- Building the frontend using React, TypeScript, Redux, and Tailwind CSS by translating designs from Figma.",
+      "- Built the Launch Token page and implemented a currency converter with XRD - USD conversion logic using Redux for state management.",
+      "- Designed and modified UI components across all pages, ensuring consistent branding and user experience.",
+      "- Developed new features (in review): Sign-up flow with Telegram login, connected to a rewards dashboard showing collected points and referral codes. Sentiment voting system on token pages to capture community feedback.",
       "- Assisting in marketing initiatives and community building, engaging crypto users and growing awareness.",
-      "- Secured The MVP Booster and The Launch Booster grants as a team and placed 5th at the ECB Barcelona Hackathon, validating the startup's potential.",
+      "- Contributed to overall product growth, securing The MVP Booster and The Launch Booster grants, and placing 5th at the ECB Barcelona Hackathon.",
     ],
     tech: [
       "React",
@@ -60,7 +62,10 @@ const experience = [
     position: "Front-end Developer",
     time: "July 2024 - December 2024",
     location: "Remote",
-    description: ["Building the front-end features. Open-source project."],
+    description: [
+      "- Building front-end features using React, TypeScript, Redux, and Tailwind CSS.",
+      "- Authored multiple PRs merged into the main branch, including features such as Buy/sell panel slider, Intuitive pair search, Toggle to show all trades.",
+    ],
     tech: ["React", "Typescript", "Redux", "Tailwind CSS"],
   },
   {

@@ -29,9 +29,9 @@ export const EducationItem = ({
       </div>
       <Reveal>
         <div className={styles.description}>
-          {description.map((item) => (
-            <p key={item}>{item}</p>
-          ))}
+          {Array.isArray(description)
+            ? description.map((item) => <p key={item}>{item}</p>)
+            : description}
         </div>
       </Reveal>
     </div>
