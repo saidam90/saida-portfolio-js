@@ -23,9 +23,11 @@ export const GrantItem = ({ title, organization, time, description, link }) => {
       <Reveal>
         <p className={styles.description}>{description}</p>
       </Reveal>
-      <Link target="_blank" rel="nofollow" href={link}>
-        <AiOutlineExport /> link to the project
-      </Link>
+      {link && (
+        <Link target="_blank" rel="nofollow" href={link}>
+          <AiOutlineExport /> link to the project
+        </Link>
+      )}
     </div>
   );
 };

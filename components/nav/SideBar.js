@@ -50,7 +50,7 @@ export const SideBar = () => {
       <motion.a
         initial={{ x: -70 }}
         animate={{ x: 0 }}
-        transition={{ duration: 0.5, delay: 0.3 }}
+        transition={{ duration: 0.5, delay: 0 }}
         href="#experience"
         onClick={() => setSelected("experience")}
         className={selected === "experience" ? styles.selected : ""}
@@ -77,16 +77,18 @@ export const SideBar = () => {
       >
         Web Dev
       </motion.a>
-      {/* <motion.a
+      <motion.a
         initial={{ x: -70 }}
         animate={{ x: 0 }}
         transition={{ duration: 0.5, delay: 0.2 }}
-        href="#marketingProjects"
+        href="https://saidamurtazali.notion.site/Product-Digital-Marketing-assets-2f69266cfad24d0cb673a56d1ac5e865?pvs=74"
+        target="_blank"
+        rel="noopener noreferrer"
         onClick={() => setSelected("marketingProjects")}
         className={selected === "marketingProjects" ? styles.selected : ""}
       >
         Marketing
-      </motion.a> */}
+      </motion.a>
       <motion.a
         initial={{ x: -70 }}
         animate={{ x: 0 }}

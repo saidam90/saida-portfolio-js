@@ -16,18 +16,10 @@ const grants = [
   {
     title: "Rakoon.fun",
     organization: "Radix Ecosystem Fund",
-    time: "Dec 2024",
+    time: "2024-2025",
     description:
-      "The MVP Booster ($5K XRD) awarded to 'Rakoon.fun' (previously radix.meme). Team project.",
-    link: "https://rakoon.fun/",
-  },
-  {
-    title: "Rakoon.fun",
-    organization: "ECB Barcelona Hackathon",
-    time: "Sep 2024",
-    description:
-      "5th place ($1K XRD) with the 'radix.meme' project (rebranded to 'Rakoon.fun') at the ECB Barcelona Hackathon. Team project.",
-    link: "https://www.radixdlt.com/blog/european-blockchain-convention-event-highlights",
+      "The Launch Booster ($15K XRD) and MVP Booster ($5K XRD) awarded to 'Rakoon.fun' (previously radix.meme). 5th place at the ECB Barcelona Hackathon. Team project.",
+    link: "https://www.radixdlt.com/blog/mvp-booster-grant-winners-rakoon-fun-defiplaza-oasis",
   },
   {
     title: "BlocuSign",
@@ -44,5 +36,19 @@ const grants = [
     description:
       "Best implementation of Scaffold-ETH 2 in 'Avatar Wallet' project at the ETH London Hackathon. Team project.",
     link: "https://www.blog.encode.club/eth-london-hackathon-prizewinners-and-summary-85cdff4d093d",
+  },
+  {
+    title: "State Program on Education of Azerbaijani Youth Abroad",
+    organization: "Azerbaijan Republic",
+    time: "2013",
+    description: "Associated with the University og Glasgow",
+    link: "",
+  },
+  {
+    title: "JASSO International Student Scholarship",
+    organization: "Japan Student Services Organization (JASSO)",
+    time: "2010",
+    description: "Associated with Gunma University",
+    link: "",
   },
 ];
