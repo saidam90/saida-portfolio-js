@@ -13,7 +13,7 @@ export const About = () => {
         <div>
           <Reveal>
             <p className={`${styles.aboutText} ${styles.highlightFirstLetter}`}>
-              Product & Growth Marketer with 7+ years driving digital strategy
+              Product / Growth Marketer with 7+ years driving digital strategy
               and conversion rate optimization (CRO). Proven record of scaling
               direct bookings, reducing support costs through automation, and
               building technical marketing solutions in fast-paced product
