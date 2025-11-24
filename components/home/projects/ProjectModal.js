@@ -26,9 +26,25 @@ export const ProjectModal = ({
     }
   }, [isOpen]);
 
+  useEffect(() => {
+    const handleEscape = (e) => {
+      if (e.key === "Escape") {
+        setIsOpen(false);
+      }
+    };
+
+    if (isOpen) {
+      document.addEventListener("keydown", handleEscape);
+    }
+
+    return () => {
+      document.removeEventListener("keydown", handleEscape);
+    };
+  }, [isOpen, setIsOpen]);
+
   const content = (
     <div className={styles.modal} onClick={() => setIsOpen(false)}>
-      <button className={styles.closeModalBtn}>
+      <button className={styles.closeModalBtn} onClick={() => setIsOpen(false)}>
         <MdClose />
       </button>
 

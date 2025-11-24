@@ -31,8 +31,8 @@
 }
 
 .projectImage:focus-visible {
-  outline: 1px solid var(--focus-ring);
-  outline-offset: 1px;
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
 }
 
 .projectCopy {
@@ -55,10 +55,18 @@
   a {
     opacity: 0.75;
     transition: 0.25s opacity;
+    display: inline-flex;
+    border-radius: 4px;
   }
 
   a:hover {
     opacity: 1;
+  }
+
+  a:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 2px var(--focus-ring);
+    border-radius: 4px;
   }
 }
 

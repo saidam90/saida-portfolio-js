@@ -50,6 +50,14 @@ export const MarketingProject = ({
           onMouseLeave={() => setHovered(false)}
           onClick={() => setIsOpen(true)}
           className={styles.projectImage}
+          role="button"
+          tabIndex={0}
+          onKeyDown={(e) => {
+            if (e.key === "Enter" || e.key === " ") {
+              e.preventDefault();
+              setIsOpen(true);
+            }
+          }}
         >
           <img
             src={imgSrc}

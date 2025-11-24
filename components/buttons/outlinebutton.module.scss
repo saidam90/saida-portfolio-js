@@ -44,3 +44,8 @@
   left: 0;
   top: 0;
 }
+
+.outlineButton:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
+}

@@ -16,6 +16,6 @@
 }
 
 .standardButton:focus-visible {
-  outline: none;
-  border: 2px solid var(--bg-opaque);
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
 }

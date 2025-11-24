@@ -1,7 +1,7 @@
 .sideBar {
   background: var(--bg-opaque);
 
-  height: 120vh;
+  height: 100vh;
 
   position: sticky;
   top: 0px;
@@ -42,10 +42,10 @@
   }
 
   a:focus-visible {
-    outline: 1px solid var(--focus-ring);
-    outline-offset: -2px;
+    outline: 2px solid var(--focus-ring);
+    outline-offset: 2px;
     background: var(--background);
-    border: 1px solid var (--brand);
+    border-right: 1px solid var(--brand);
     opacity: 1;
   }
 

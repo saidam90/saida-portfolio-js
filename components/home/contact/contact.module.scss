@@ -32,6 +32,12 @@
   a:hover {
     text-decoration: underline;
   }
+
+  a:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 2px var(--focus-ring);
+    border-radius: 4px;
+  }
 }
 
 .contactEmail {
@@ -51,4 +57,10 @@
 
 .contactEmail:hover {
   color: var(--brand);
+}
+
+.contactEmail:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 1px var(--focus-ring);
+  border-radius: 4px;
 }

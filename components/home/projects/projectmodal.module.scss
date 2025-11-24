@@ -103,6 +103,12 @@
   a:hover {
     text-decoration: underline;
   }
+
+  a:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 1px var(--focus-ring);
+    border-radius: 4px;
+  }
 }
 
 .closeModalBtn {
@@ -118,4 +124,10 @@
   right: 1.2rem;
 
   cursor: pointer;
+}
+
+.closeModalBtn:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 1px var(--focus-ring);
+  border-radius: 4px;
 }
