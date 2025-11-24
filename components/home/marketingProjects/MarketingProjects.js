@@ -13,11 +13,6 @@ export const MarketingProjects = () => {
             <MarketingProject
               key={project.title}
               {...project}
-              inlineStyle={
-                project.imgSrc === "project-imgs/rereadr.gif"
-                  ? { width: "27%" }
-                  : {}
-              }
             />
           );
         })}

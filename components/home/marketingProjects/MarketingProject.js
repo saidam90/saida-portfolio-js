@@ -14,7 +14,6 @@ export const MarketingProject = ({
   title,
   code,
   tech,
-  inlineStyle,
 }) => {
   const [hovered, setHovered] = useState(false);
 
@@ -62,7 +61,7 @@ export const MarketingProject = ({
           <img
             src={imgSrc}
             alt={`An image of the ${title} project.`}
-            style={inlineStyle}
+            className={imgSrc === "project-imgs/rereadr.gif" ? styles.rereadrImage : ""}
           />
         </div>
         <div className={styles.projectCopy}>
