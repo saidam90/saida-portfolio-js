@@ -42,8 +42,8 @@
   }
 
   a:focus-visible {
-    outline: 2px solid var(--focus-ring);
-    outline-offset: 2px;
+    outline: 1px solid var(--focus-ring);
+    outline-offset: 1px;
     background: var(--background);
     border-right: 1px solid var(--brand);
     opacity: 1;

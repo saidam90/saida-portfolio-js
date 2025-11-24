@@ -25,11 +25,9 @@ export const Contact = () => {
           </p>
         </Reveal>
         <Reveal width="100%">
-          <Link href="mailto:murtazalisaida@gmail.com">
-            <div className={styles.contactEmail}>
-              <AiFillMail size="2.4rem" />
-              <span>murtazalisaida@gmail.com</span>
-            </div>
+          <Link href="mailto:murtazalisaida@gmail.com" className={styles.contactEmail}>
+            <AiFillMail size="2.4rem" />
+            <span>murtazalisaida@gmail.com</span>
           </Link>
         </Reveal>
       </div>

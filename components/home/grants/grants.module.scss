@@ -25,3 +25,23 @@
   font-weight: 200;
   padding: 0.5rem 0 1rem 0;
 }
+
+.grants a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 2px;
+  margin: -2px;
+  color: var(--brand);
+  font-size: var(--text-xs);
+}
+
+.grants a:hover {
+  text-decoration: underline;
+}
+
+.grants a:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--focus-ring);
+  border-radius: 4px;
+}

@@ -7,6 +7,9 @@
     opacity: 0.7;
     position: relative;
     z-index: 20;
+    display: inline-flex;
+    padding: 2px;
+    margin: -2px;
   }
 
   a:hover {
@@ -16,7 +19,7 @@
 
   a:focus-visible {
     outline: none;
-    box-shadow: 0 0 0 1px var(--focus-ring);
+    box-shadow: 0 0 0 2px var(--focus-ring);
     border-radius: 4px;
   }
 }
